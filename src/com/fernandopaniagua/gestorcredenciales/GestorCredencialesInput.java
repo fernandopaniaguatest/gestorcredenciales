@@ -6,7 +6,12 @@ import java.util.Scanner;
 
 import com.fernandopaniagua.gestorcredenciales.persistencia.FileManager;
 import com.fernandopaniagua.gestorcredenciales.security.DigestManager;
-
+/**
+ * Esta clase contiene un método main y solicita
+ * las credenciales al usuario y almacena el resumen
+ * de la password en un fichero con el nombre login.password
+ * 
+ */
 public class GestorCredencialesInput {
 
 	public static void main(String[] args) {
